@@ -1,17 +1,17 @@
 // mixin
 @mixin borda-arredondada($raio: 0.3em) {
-    -webkit-border-radius: $raio;
-    -moz-border-radius: $raio;
-    border-radius: $raio;
-  }
-  
-  @mixin sombra-padrao {
-    -webkit-box-shadow: $sombra;
-    box-shadow: $sombra;
-  }
-  
-  @mixin image-replacement {
-    text-indent: -9999px;
-    overflow: hidden;
-    background-repeat: no-repeat;
-  }
+  -webkit-border-radius: $raio;
+  -moz-border-radius: $raio;
+  border-radius: $raio;
+}
+
+%image-replacement {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+%sombra-padrao {
+  -webkit-box-shadow: $sombra;
+  box-shadow: $sombra;
+}
