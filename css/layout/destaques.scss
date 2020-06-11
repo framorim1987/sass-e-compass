@@ -10,6 +10,13 @@
   
   .destaque p {
     width: 30em;
+
+    @media (max-width: 980px) {
+      .destaque {
+        font-size: 14px;
+        height: 250px;
+      }
+    }
   }
   
   .destaque p:first-child {
