@@ -1,17 +1,8 @@
 @import url(./base/normalize.css);
-
-.plataformas li,
-.social li a {
+.plataformas li, .social li a {
   text-indent: -9999px;
   overflow: hidden;
   background-repeat: no-repeat;
-}
-
-.destaque button,
-.plano button,
-.contato button {
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 
 /** Geral **/
@@ -23,7 +14,6 @@ body {
   width: 940px;
   margin: 0 auto;
 }
-
 @media (max-width: 980px) {
   .container {
     width: 90%;
@@ -55,17 +45,14 @@ header {
   width: 100%;
   position: absolute;
 }
-
 @media (max-width: 980px) {
   header {
     height: auto;
   }
-
   header h1 {
     max-width: 50%;
     margin: 0 auto;
   }
-
   header h1 img {
     max-width: 100%;
     margin: .5em auto;
@@ -76,7 +63,6 @@ header {
 header .container {
   position: relative;
 }
-
 @media (max-width: 980px) {
   header .container {
     position: static;
@@ -90,7 +76,6 @@ header .container {
   font-size: 1.2em;
   font-weight: lighter;
 }
-
 @media (max-width: 980px) {
   .menu-principal {
     position: static;
@@ -99,28 +84,23 @@ header .container {
     width: auto;
   }
 }
-
 .menu-principal ul {
   padding-left: 0;
 }
-
 .menu-principal li {
   display: inline-block;
   width: 5em;
 }
-
 @media (max-width: 980px) {
   .menu-principal li {
     margin: .4em;
     width: auto;
   }
 }
-
 .menu-principal a {
   color: white;
   text-decoration: none;
 }
-
 .menu-principal a:hover {
   text-decoration: underline;
 }
@@ -138,7 +118,6 @@ header .container {
 .destaque p {
   width: 30em;
 }
-
 @media (max-width: 980px) {
   .destaque p .destaque {
     font-size: 14px;
@@ -163,9 +142,12 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
   border-radius: 50px;
+  -moz-box-shadow: black 0 2px 5px;
+  -webkit-box-shadow: black 0 2px 5px;
+  box-shadow: black 0 2px 5px;
   font-weight: bold;
 }
 
@@ -261,7 +243,6 @@ header .container {
 .itens-plano {
   padding-left: 1.2em;
 }
-
 .itens-plano li {
   font-size: 1em;
   list-style: none;
@@ -269,11 +250,9 @@ header .container {
   padding: .5em;
   width: 14.8em;
 }
-
 .itens-plano li:last-child {
   border: 0;
 }
-
 .itens-plano span {
   float: right;
 }
@@ -285,9 +264,12 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
-  -moz-border-radius: 0.3em;
-  border-radius: 0.3em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: black 0 2px 5px;
+  -webkit-box-shadow: black 0 2px 5px;
+  box-shadow: black 0 2px 5px;
   margin-left: 2em;
 }
 
@@ -331,9 +313,7 @@ header .container {
   display: inline-block;
   vertical-align: top;
 }
-
 @media (max-width: 980px) {
-
   .post-destaque,
   .posts-antigos {
     width: auto;
@@ -371,7 +351,6 @@ form {
   margin: 0 auto;
   width: 50%;
 }
-
 @media (max-width: 980px) {
   form {
     width: auto;
@@ -383,9 +362,9 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  -webkit-border-radius: 0.3em;
-  -moz-border-radius: 0.3em;
-  border-radius: 0.3em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   border: 2px solid #ccc;
 }
 
@@ -397,9 +376,12 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
-  -moz-border-radius: 0.3em;
-  border-radius: 0.3em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: black 0 2px 5px;
+  -webkit-box-shadow: black 0 2px 5px;
+  box-shadow: black 0 2px 5px;
 }
 
 /** Footer **/
@@ -498,5 +480,3 @@ footer a {
 .social a[href*="instagram"] {
   background-image: url(../imagens/instagram.png);
 }
-
-/*# sourceMappingURL=estilos.css.map */
