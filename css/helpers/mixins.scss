@@ -11,6 +11,10 @@
   background-repeat: no-repeat;
 }
 
+@function tamanho-padrao($multiplicador) {
+  @return round($multiplicador * $font-size-padrao);
+}
+
 // %sombra-padrao {
 //   -webkit-box-shadow: $sombra;
 //   box-shadow: $sombra;
